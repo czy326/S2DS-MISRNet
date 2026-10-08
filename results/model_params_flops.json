@@ -1,0 +1,90 @@
+{
+ "MISRNet (arm A)": {
+  "run": "s2dsV2_armA_s2026",
+  "params": 206885,
+  "macs": 1504935936.0,
+  "out_shape": [
+   1,
+   4,
+   192,
+   192
+  ]
+ },
+ "MISRNet (arm B)": {
+  "run": "s2dsV2_armB_s2026",
+  "params": 208038,
+  "macs": 1505833344.0,
+  "out_shape": [
+   1,
+   4,
+   192,
+   192
+  ]
+ },
+ "MISRNet (arm C)": {
+  "run": "s2dsV2_armC_s2026",
+  "params": 206917,
+  "macs": 1505820672.0,
+  "out_shape": [
+   1,
+   4,
+   192,
+   192
+  ]
+ },
+ "MISRNet (arm D, ours)": {
+  "run": "s2dsV2_armD_s2026",
+  "params": 208070,
+  "macs": 1506718080.0,
+  "out_shape": [
+   1,
+   4,
+   192,
+   192
+  ]
+ },
+ "HighRes-net": {
+  "run": "s2dsE2_highresnet_s2026",
+  "params": 204160,
+  "macs": 3992260608.0,
+  "out_shape": [
+   1,
+   4,
+   192,
+   192
+  ]
+ },
+ "HighRes-net + cld": {
+  "run": "s2dsE9_highresnet_cld_s2026",
+  "params": 204484,
+  "macs": 4001218560.0,
+  "out_shape": [
+   1,
+   4,
+   192,
+   192
+  ]
+ },
+ "RAMS": {
+  "run": "s2dsE2_rams_s2026",
+  "params": 126032,
+  "macs": 20044578816.0,
+  "out_shape": [
+   1,
+   4,
+   192,
+   192
+  ]
+ },
+ "BreizhSR": {
+  "run": "s2dsE7_breizhsr_s2026",
+  "params": 247755,
+  "macs": 6473428992.0,
+  "out_shape": [
+   1,
+   4,
+   192,
+   192
+  ]
+ }
+}
