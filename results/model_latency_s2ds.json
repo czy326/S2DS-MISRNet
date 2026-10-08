@@ -1,0 +1,56 @@
+{
+ "MISRNet (arm A)": {
+  "run": "s2dsV2_armA_s2026",
+  "ckpt": "ckpt_030000.pt",
+  "params": 206885,
+  "latency_ms_median": 0.723,
+  "latency_ms_p90": 1.029,
+  "n_reps": 200,
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU"
+ },
+ "MISRNet (arm D, ours)": {
+  "run": "s2dsV2_armD_s2026",
+  "ckpt": "ckpt_030000.pt",
+  "params": 208070,
+  "latency_ms_median": 1.03,
+  "latency_ms_p90": 1.734,
+  "n_reps": 200,
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU"
+ },
+ "HighRes-net": {
+  "run": "s2dsE2_highresnet_s2026",
+  "ckpt": "ckpt_030000.pt",
+  "params": 204160,
+  "latency_ms_median": 2.53,
+  "latency_ms_p90": 3.607,
+  "n_reps": 200,
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU"
+ },
+ "HighRes-net + cld": {
+  "run": "s2dsE9_highresnet_cld_s2026",
+  "ckpt": "ckpt_030000.pt",
+  "params": 204484,
+  "latency_ms_median": 2.605,
+  "latency_ms_p90": 3.675,
+  "n_reps": 200,
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU"
+ },
+ "RAMS": {
+  "run": "s2dsE2_rams_s2026",
+  "ckpt": "ckpt_030000.pt",
+  "params": 126032,
+  "latency_ms_median": 5.925,
+  "latency_ms_p90": 6.355,
+  "n_reps": 200,
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU"
+ },
+ "BreizhSR": {
+  "run": "s2dsE7_breizhsr_s2026",
+  "ckpt": "ckpt_030000.pt",
+  "params": 247755,
+  "latency_ms_median": 2.578,
+  "latency_ms_p90": 3.374,
+  "n_reps": 200,
+  "device": "NVIDIA GeForce RTX 5080 Laptop GPU"
+ }
+}
